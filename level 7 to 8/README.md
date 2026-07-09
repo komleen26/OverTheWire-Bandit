@@ -1,12 +1,9 @@
-# Bandit Level 7 → Level 8
+#Bandit level 7 to level 8:
 
-## Commands Used
+#Commands used: ssh bandit7@bandit.labs.overthewire.org -p 2220
+- grep "millionth" data.txt
 
-ssh bandit7@bandit.labs.overthewire.org -p 2220
-grep "millionth" data.txt
-
-## Command Breakdown
-
+#Command breakdown:
 - `ssh` – Establishes a secure connection to a remote Linux server.
 - `bandit7` – Username for the current Bandit level.
 - `@` – Separates the username from the remote host.
