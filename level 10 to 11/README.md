@@ -1,6 +1,7 @@
 #Bandit level 10 to level 11:
 
 #Commands used: ssh bandit10@bandit.labs.overthewire.org -p 2220 
+
 strings data.txt | base64 -d
 
 #Command breakdown:
