@@ -1,17 +1,18 @@
 #Bandit level 12 to level 13:
 
 #Commands used: ssh bandit12@bandit.labs.overthewire.org -p 2220
-mkdir /tmp/kim
-cp data.txt /tmp/kim
-cd /tmp/kim
-xxd -r data.txt > data
-file data
-mv data data.gz
-gzip -d data.gz
-mv file file.tar
-tar xf file.tar
-mv data6.bin data.bz2
-bzip2 -d data.bz2
+
+- mkdir /tmp/kim
+- cp data.txt /tmp/kim
+- cd /tmp/kim
+- xxd -r data.txt > data
+- file data
+- mv data data.gz
+- gzip -d data.gz
+- mv file file.tar
+- tar xf file.tar
+- mv data6.bin data.bz2
+- bzip2 -d data.bz2
 
 #Command breakdown:
 - `mkdir /tmp/kim` – Creates a temporary working directory.
