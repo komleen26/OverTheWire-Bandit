@@ -2,7 +2,7 @@
 
 #Commands used: ssh bandit13@bandit.labs.overthewire.org -p 2220
 - scp -P 2220 bandit13@bandit.labs.overthewire.org:/home/bandit13/sshkey.private .
-- ssh -p 2220 -i sshkey.private bandit14@bandit.labs.over
+- ssh -p 2220 -i sshkey.private bandit14@bandit.labs.overthewire.org
 
 #Commands breakdown:
 1. Copy the private SSH key
